@@ -61,4 +61,79 @@ contract('SampleCrowdsale', ([owner, wallet, investor]) => {
             value: ether(21) 
         }).should.be.rejectedWith('revert');
     });
+
+    it('should accept payments during the sale', async () => {
+        const investmentAmount = ether(1);
+        const expectedTokenAmount = RATE.mul(investmentAmount);
+
+        await increaseTimeTo(this.startTime);
+        await this.crowdsale.buyTokens(investor, {
+            value: investmentAmount,
+            from: investor
+        }).should.be.fulfilled;
+
+        const actualTokenAmount = await this.token.balanceOf(investor);
+        const actualTokenSupplyAmount = await this.token.totalSupply();
+
+        actualTokenAmount.should.be.bignumber.equal(expectedTokenAmount);
+        actualTokenSupplyAmount.should.be.bignumber.equal(expectedTokenAmount);
+    });
+
+    it('should reject payments after end', async () => {
+        await increaseTimeTo(this.afterEndTime);
+
+        await this.crowdsale
+            .send(ether(1))
+            .should.be.rejectedWith('revert');
+
+        await this.crowdsale
+            .buyTokens(investor, {
+                value: ether(1),
+                from: investor
+            })
+            .should.be.rejectedWith('revert');
+    });
+
+    it('should reject payments over cap', async () => {
+        await increaseTimeTo(this.startTime);
+        await this.crowdsale.send(CAP);
+        await this.crowdsale.send(1).should.be.rejectedWith('revert');
+    });
+
+    it('should allow finalization and transfer funds to wallet if the goal is reached', async () => {
+        await increaseTimeTo(this.startTime);
+        await this.crowdsale.send(GOAL);
+
+        const beforeFinalization = web3.eth.getBalance(wallet);
+        await increaseTimeTo(this.afterEndTime);
+        await this.crowdsale.finalize({ from: owner });
+        const afterFinalization = web3.eth.getBalance(wallet);
+
+        afterFinalization.minus(beforeFinalization).should.be.bignumber.equal(GOAL);
+    });
+
+    it('should allow refunds if the goal is not reached', async () => {
+        const balanceBeforeInvestment = web3.eth.getBalance(investor);
+        const balanceBeforeOwner = web3.eth.getBalance(wallet);
+
+        await increaseTimeTo(this.startTime);
+        await this.crowdsale.sendTransaction({
+            value: ether(1),
+            from: investor,
+            gasPrice: 0
+        });
+        await increaseTimeTo(this.afterEndTime);
+
+        await this.crowdsale.finalize({ from: owner });
+        await this.crowdsale.claimRefund({
+            from: investor,
+            gasPrice: 0
+        }).should.be.fulfilled;
+
+        const balanceAfterRefund = web3.eth.getBalance(investor);
+        const balanceOwnerAfterRefund = web3.eth.getBalance(wallet);
+
+        balanceBeforeInvestment.should.be.bignumber.equal(balanceAfterRefund);
+        balanceBeforeOwner.should.be.bignumber.equal(balanceOwnerAfterRefund);
+    });
 });
