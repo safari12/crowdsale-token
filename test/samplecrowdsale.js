@@ -1,5 +1,6 @@
 const ether = require('./helpers/ether');
 const latestTime = require('./helpers/latestTime');
+const { advanceBlock } = require('./helpers/advanceToBlock');
 const { increaseTimeTo, duration } = require('./helpers/increaseTime');
 
 const BigNumber = web3.BigNumber;
@@ -16,6 +17,10 @@ contract('SampleCrowdsale', ([owner, wallet, investor]) => {
     const RATE = new BigNumber(10);
     const GOAL = ether(10);
     const CAP = ether(20);
+
+    before(async () => {
+        await advanceBlock();
+    });
 
     beforeEach(async () => {
         this.startTime = latestTime() + duration.weeks(1);
@@ -47,5 +52,13 @@ contract('SampleCrowdsale', ([owner, wallet, investor]) => {
         walletAddress.should.be.equal(wallet);
         goal.should.be.bignumber.equal(GOAL);
         cap.should.be.bignumber.equal(CAP);
+    });
+
+    it('should not accept payments before start', async () => {
+        await this.crowdsale.send(ether(1)).should.be.rejectedWith('revert');
+        await this.crowdsale.buyTokens(investor, { 
+            from: investor, 
+            value: ether(21) 
+        }).should.be.rejectedWith('revert');
     });
 });
