@@ -2,17 +2,27 @@
   <div class="hero-body">
     <div class="container">
       <h1 class="title is-1">
-        Metacoin ~ Angular4 + Truffle Starter Dapp
+          SampleCrowdsaleToken ~ Angular4 + Truffle Starter Dapp
       </h1>
       <h2 class="title">
-        You have <span class="is-medium has-underline">{{balance}}</span> META
+        Account address <span class="is-medium has-underline">{{account}}</span>
+      </h2>
+      <h2 class="title">
+        You have <span class="is-medium has-underline">{{balance}}</span> SCT
       </h2>
     </div>
   </div>
 </section>
 <br>
 <div class="container">
-  <h1 class="title">Send Metacoin</h1>
+  <h1 class="title">SampleCrowdsale Stats</h1>
+
+  <label class="label">Total Supply</label>
+  <p>{{crowdSaleStats.cap}}</p>
+
+  <br>
+
+  <h1 class="title">Send    SampleCrowdsaleToken</h1>
   <h1 class="title is-4 is-info help">{{status}}</h1>
 
   <form #coinForm="ngForm">

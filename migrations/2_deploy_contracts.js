@@ -2,8 +2,8 @@ function ether(n) {
   return new web3.BigNumber(web3.toWei(n, 'ether'));
 }
 
-const SafeMath = artifacts.require('./SafeMath.sol');
-const SampleCrowdsale = artifacts.require('./SampleCrowdsale.sol');
+const SafeMath = artifacts.require('./SafeMath');
+const SampleCrowdsale = artifacts.require('./SampleCrowdsale');
 const SampleCrowdsaleToken = artifacts.require('./SampleCrowdsaleToken');
 
 module.exports = function(deployer) {
