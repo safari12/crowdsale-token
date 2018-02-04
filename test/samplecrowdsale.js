@@ -1,7 +1,7 @@
-const ether = require('./helpers/ether');
-const latestTime = require('./helpers/latestTime');
-const { advanceBlock } = require('./helpers/advanceToBlock');
-const { increaseTimeTo, duration } = require('./helpers/increaseTime');
+const ether = require('../helpers/ether');
+const latestTime = require('../helpers/latestTime');
+const { advanceBlock } = require('../helpers/advanceToBlock');
+const { increaseTimeTo, duration } = require('../helpers/increaseTime');
 
 const BigNumber = web3.BigNumber;
 

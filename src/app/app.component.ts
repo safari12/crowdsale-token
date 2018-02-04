@@ -1,7 +1,9 @@
 import { Component, HostListener, NgZone } from '@angular/core';
+
 const Web3 = require('web3');
 const contract = require('truffle-contract');
 const metaincoinArtifacts = require('../../build/contracts/MetaCoin.json');
+
 import { canBeNumber } from '../util/validation';
 
 declare var window: any;
