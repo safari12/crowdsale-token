@@ -32,7 +32,8 @@ export class AppComponent {
   canBeNumber = canBeNumber;
 
   crowdSaleStats = {
-    cap: 0
+    cap: 0,
+    startTime: 0
   };
 
   constructor(private _ngZone: NgZone) {
@@ -118,9 +119,15 @@ export class AppComponent {
       .then(instance => {
         let sampleCrowdsale = instance;
 
+        console.log(sampleCrowdsale);
+
         sampleCrowdsale.cap.call().then((value) => {
           this.crowdSaleStats.cap = value;
         });
+
+        sampleCrowdsale.startTime.call().then((value) => {
+          this.crowdSaleStats.startTime = value;
+        })
       });
   }
 
