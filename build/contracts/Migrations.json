@@ -64,15 +64,15 @@
       "type": "constructor"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506102db8061005e6000396000f300606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630900f01014610067578063445df0ac146100a05780638da5cb5b146100c9578063fdacd5761461011e575b600080fd5b341561007257600080fd5b61009e600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610141565b005b34156100ab57600080fd5b6100b3610224565b6040518082815260200191505060405180910390f35b34156100d457600080fd5b6100dc61022a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561012957600080fd5b61013f600480803590602001909190505061024f565b005b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610220578190508073ffffffffffffffffffffffffffffffffffffffff1663fdacd5766001546040518263ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180828152602001915050600060405180830381600087803b151561020b57600080fd5b6102c65a03f1151561021c57600080fd5b5050505b5050565b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156102ac57806001819055505b505600a165627a7a723058200cfa6de9839bd8434318e7178a88cc389de1b4fbcee2c7f5f8008e464bdb0e290029",
-  "deployedBytecode": "0x606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630900f01014610067578063445df0ac146100a05780638da5cb5b146100c9578063fdacd5761461011e575b600080fd5b341561007257600080fd5b61009e600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610141565b005b34156100ab57600080fd5b6100b3610224565b6040518082815260200191505060405180910390f35b34156100d457600080fd5b6100dc61022a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561012957600080fd5b61013f600480803590602001909190505061024f565b005b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610220578190508073ffffffffffffffffffffffffffffffffffffffff1663fdacd5766001546040518263ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180828152602001915050600060405180830381600087803b151561020b57600080fd5b6102c65a03f1151561021c57600080fd5b5050505b5050565b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156102ac57806001819055505b505600a165627a7a723058200cfa6de9839bd8434318e7178a88cc389de1b4fbcee2c7f5f8008e464bdb0e290029",
+  "bytecode": "0x6060604052341561000f57600080fd5b336000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055506102db8061005e6000396000f300606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630900f01014610067578063445df0ac146100a05780638da5cb5b146100c9578063fdacd5761461011e575b600080fd5b341561007257600080fd5b61009e600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610141565b005b34156100ab57600080fd5b6100b3610224565b6040518082815260200191505060405180910390f35b34156100d457600080fd5b6100dc61022a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561012957600080fd5b61013f600480803590602001909190505061024f565b005b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610220578190508073ffffffffffffffffffffffffffffffffffffffff1663fdacd5766001546040518263ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180828152602001915050600060405180830381600087803b151561020b57600080fd5b6102c65a03f1151561021c57600080fd5b5050505b5050565b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156102ac57806001819055505b505600a165627a7a72305820a580cef271c8a1bd2df11001ed25ca297773a798061bd931a9541987a3d37e000029",
+  "deployedBytecode": "0x606060405260043610610062576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630900f01014610067578063445df0ac146100a05780638da5cb5b146100c9578063fdacd5761461011e575b600080fd5b341561007257600080fd5b61009e600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610141565b005b34156100ab57600080fd5b6100b3610224565b6040518082815260200191505060405180910390f35b34156100d457600080fd5b6100dc61022a565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b341561012957600080fd5b61013f600480803590602001909190505061024f565b005b60008060009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff161415610220578190508073ffffffffffffffffffffffffffffffffffffffff1663fdacd5766001546040518263ffffffff167c010000000000000000000000000000000000000000000000000000000002815260040180828152602001915050600060405180830381600087803b151561020b57600080fd5b6102c65a03f1151561021c57600080fd5b5050505b5050565b60015481565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff1614156102ac57806001819055505b505600a165627a7a72305820a580cef271c8a1bd2df11001ed25ca297773a798061bd931a9541987a3d37e000029",
   "sourceMap": "25:481:2:-;;;177:51;;;;;;;;213:10;205:5;;:18;;;;;;;;;;;;;;;;;;25:481;;;;;;",
   "deployedSourceMap": "25:481:2:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;339:165;;;;;;;;;;;;;;;;;;;;;;;;;;;;73:36;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;49:20;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;232:103;;;;;;;;;;;;;;;;;;;;;;;;;;339:165;401:19;160:5;;;;;;;;;;;146:19;;:10;:19;;;142:26;;;434:11;401:45;;452:8;:21;;;474:24;;452:47;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;142:26;339:165;;:::o;73:36::-;;;;:::o;49:20::-;;;;;;;;;;;;;:::o;232:103::-;160:5;;;;;;;;;;;146:19;;:10;:19;;;142:26;;;321:9;294:24;:36;;;;142:26;232:103;:::o",
   "source": "pragma solidity ^0.4.2;\n\ncontract Migrations {\n  address public owner;\n  uint public last_completed_migration;\n\n  modifier restricted() {\n    if (msg.sender == owner) _;\n  }\n\n  function Migrations() {\n    owner = msg.sender;\n  }\n\n  function setCompleted(uint completed) restricted public {\n    last_completed_migration = completed;\n  }\n\n  function upgrade(address new_address) restricted public {\n    Migrations upgraded = Migrations(new_address);\n    upgraded.setCompleted(last_completed_migration);\n  }\n}\n",
-  "sourcePath": "/home/safari/Documents/safari/tokens/angular4-truffle-starter-dapp/contracts/Migrations.sol",
+  "sourcePath": "/home/safari/Documents/safari/tokens/crowdsale-token/contracts/Migrations.sol",
   "ast": {
     "attributes": {
-      "absolutePath": "/home/safari/Documents/safari/tokens/angular4-truffle-starter-dapp/contracts/Migrations.sol",
+      "absolutePath": "/home/safari/Documents/safari/tokens/crowdsale-token/contracts/Migrations.sol",
       "exportedSymbols": {
         "Migrations": [
           169
@@ -220,7 +220,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 181,
+                                  "referencedDeclaration": 1526,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -357,7 +357,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 181,
+                                  "referencedDeclaration": 1526,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -815,67 +815,7 @@
     "name": "solc",
     "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
   },
-  "networks": {
-    "5777": {
-      "events": {},
-      "links": {},
-      "address": "0x8cdaf0cd259887258bc13a92c0a6da92698644c0"
-    },
-    "1497540925209": {
-      "events": {},
-      "links": {},
-      "address": "0xe5a87a661a5274d9c74740438910a66966212f56",
-      "updated_at": 1497540932070
-    },
-    "1497564377005": {
-      "events": {},
-      "links": {},
-      "address": "0x0592d2b012c177acb64a90293ff07b596651db9d",
-      "updated_at": 1497564416673
-    },
-    "1497573956908": {
-      "events": {},
-      "links": {},
-      "address": "0x0e528559b87489b90720549286b4041882a57490",
-      "updated_at": 1497574321181
-    },
-    "1497575573093": {
-      "events": {},
-      "links": {},
-      "address": "0xe3e528c523d636376c6fb1d80fbf73fe93585d15",
-      "updated_at": 1497575611587
-    },
-    "1497704680000": {
-      "events": {},
-      "links": {},
-      "address": "0xe389b0a1a048946464157198951600547bc41a66",
-      "updated_at": 1497704704501
-    },
-    "1500839312902": {
-      "events": {},
-      "links": {},
-      "address": "0x2853d11868f74239052ab212cbe0dd1917cf36a9",
-      "updated_at": 1500839556228
-    },
-    "1502360145017": {
-      "events": {},
-      "links": {},
-      "address": "0x05ab420b6c94cc5c9d4e3f62f1f220324dfeb5a7",
-      "updated_at": 1502360207523
-    },
-    "1502361423296": {
-      "events": {},
-      "links": {},
-      "address": "0x05ab420b6c94cc5c9d4e3f62f1f220324dfeb5a7",
-      "updated_at": 1502361452539
-    },
-    "1502362873428": {
-      "events": {},
-      "links": {},
-      "address": "0x737d495e088fdf0d52949633f78e51a14b43f397",
-      "updated_at": 1502883739626
-    }
-  },
+  "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-01-31T09:05:06.003Z"
+  "updatedAt": "2018-02-02T06:27:21.910Z"
 }

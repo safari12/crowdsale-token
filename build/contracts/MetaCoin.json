@@ -91,15 +91,15 @@
       "type": "event"
     }
   ],
-  "bytecode": "0x6060604052341561000f57600080fd5b6127106000803273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506103c5806100636000396000f300606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680637bd703e81461005c57806390b98a11146100a9578063f8b2cb4f14610103575b600080fd5b341561006757600080fd5b610093600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610150565b6040518082815260200191505060405180910390f35b34156100b457600080fd5b6100e9600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506101f8565b604051808215151515815260200191505060405180910390f35b341561010e57600080fd5b61013a600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610351565b6040518082815260200191505060405180910390f35b600073__ConvertLib____________________________6396e4ee3d61017584610351565b60026000604051602001526040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808381526020018281526020019250505060206040518083038186803b15156101d657600080fd5b6102c65a03f415156101e757600080fd5b505050604051805190509050919050565b6000816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015610249576000905061034b565b816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540392505081905550816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190505b92915050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490509190505600a165627a7a72305820ae83c4993d2862530b07ec44e2db1ee189ecd61168dce69feb202d6a94cdb42c0029",
-  "deployedBytecode": "0x606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680637bd703e81461005c57806390b98a11146100a9578063f8b2cb4f14610103575b600080fd5b341561006757600080fd5b610093600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610150565b6040518082815260200191505060405180910390f35b34156100b457600080fd5b6100e9600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506101f8565b604051808215151515815260200191505060405180910390f35b341561010e57600080fd5b61013a600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610351565b6040518082815260200191505060405180910390f35b600073__ConvertLib____________________________6396e4ee3d61017584610351565b60026000604051602001526040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808381526020018281526020019250505060206040518083038186803b15156101d657600080fd5b6102c65a03f415156101e757600080fd5b505050604051805190509050919050565b6000816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015610249576000905061034b565b816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540392505081905550816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190505b92915050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490509190505600a165627a7a72305820ae83c4993d2862530b07ec44e2db1ee189ecd61168dce69feb202d6a94cdb42c0029",
+  "bytecode": "0x6060604052341561000f57600080fd5b6127106000803273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055506103c5806100636000396000f300606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680637bd703e81461005c57806390b98a11146100a9578063f8b2cb4f14610103575b600080fd5b341561006757600080fd5b610093600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610150565b6040518082815260200191505060405180910390f35b34156100b457600080fd5b6100e9600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506101f8565b604051808215151515815260200191505060405180910390f35b341561010e57600080fd5b61013a600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610351565b6040518082815260200191505060405180910390f35b600073__ConvertLib____________________________6396e4ee3d61017584610351565b60026000604051602001526040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808381526020018281526020019250505060206040518083038186803b15156101d657600080fd5b6102c65a03f415156101e757600080fd5b505050604051805190509050919050565b6000816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015610249576000905061034b565b816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540392505081905550816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190505b92915050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490509190505600a165627a7a72305820769f99df85563176d34233e469f421dfbe63f7caf64057bf3e30087d90e9199a0029",
+  "deployedBytecode": "0x606060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680637bd703e81461005c57806390b98a11146100a9578063f8b2cb4f14610103575b600080fd5b341561006757600080fd5b610093600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610150565b6040518082815260200191505060405180910390f35b34156100b457600080fd5b6100e9600480803573ffffffffffffffffffffffffffffffffffffffff169060200190919080359060200190919050506101f8565b604051808215151515815260200191505060405180910390f35b341561010e57600080fd5b61013a600480803573ffffffffffffffffffffffffffffffffffffffff16906020019091905050610351565b6040518082815260200191505060405180910390f35b600073__ConvertLib____________________________6396e4ee3d61017584610351565b60026000604051602001526040518363ffffffff167c0100000000000000000000000000000000000000000000000000000000028152600401808381526020018281526020019250505060206040518083038186803b15156101d657600080fd5b6102c65a03f415156101e757600080fd5b505050604051805190509050919050565b6000816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020541015610249576000905061034b565b816000803373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002060008282540392505081905550816000808573ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055508273ffffffffffffffffffffffffffffffffffffffff163373ffffffffffffffffffffffffffffffffffffffff167fddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef846040518082815260200191505060405180910390a3600190505b92915050565b60008060008373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000205490509190505600a165627a7a72305820769f99df85563176d34233e469f421dfbe63f7caf64057bf3e30087d90e9199a0029",
   "sourceMap": "315:637:1:-;;;452:55;;;;;;;;498:5;476:8;:19;485:9;476:19;;;;;;;;;;;;;;;:27;;;;315:637;;;;;;",
   "deployedSourceMap": "315:637:1:-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;765:105;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;510:252;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;873:77;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;765:105;812:4;828:10;:18;847:16;858:4;847:10;:16::i;:::-;864:1;828:38;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;821:45;;765:105;;;:::o;510:252::-;567:15;615:6;592:8;:20;601:10;592:20;;;;;;;;;;;;;;;;:29;588:47;;;630:5;623:12;;;;588:47;663:6;639:8;:20;648:10;639:20;;;;;;;;;;;;;;;;:30;;;;;;;;;;;695:6;673:8;:18;682:8;673:18;;;;;;;;;;;;;;;;:28;;;;;;;;;;;726:8;705:38;;714:10;705:38;;;736:6;705:38;;;;;;;;;;;;;;;;;;754:4;747:11;;510:252;;;;;:::o;873:77::-;915:4;932:8;:14;941:4;932:14;;;;;;;;;;;;;;;;925:21;;873:77;;;:::o",
   "source": "pragma solidity ^0.4.2;\n\nimport \"./ConvertLib.sol\";\n\n// This is just a simple example of a coin-like contract.\n// It is not standards compatible and cannot be expected to talk to other\n// coin/token contracts. If you want to create a standards-compliant\n// token, see: https://github.com/ConsenSys/Tokens. Cheers!\n\ncontract MetaCoin {\n\tmapping (address => uint) balances;\n\n\tevent Transfer(address indexed _from, address indexed _to, uint256 _value);\n\n\tfunction MetaCoin() {\n\t\tbalances[tx.origin] = 10000;\n\t}\n\n\tfunction sendCoin(address receiver, uint amount) returns(bool sufficient) {\n\t\tif (balances[msg.sender] < amount) return false;\n\t\tbalances[msg.sender] -= amount;\n\t\tbalances[receiver] += amount;\n\t\tTransfer(msg.sender, receiver, amount);\n\t\treturn true;\n\t}\n\n\tfunction getBalanceInEth(address addr) returns(uint){\n\t\treturn ConvertLib.convert(getBalance(addr),2);\n\t}\n\n\tfunction getBalance(address addr) returns(uint) {\n\t\treturn balances[addr];\n\t}\n}\n",
-  "sourcePath": "/home/safari/Documents/safari/tokens/angular4-truffle-starter-dapp/contracts/MetaCoin.sol",
+  "sourcePath": "/home/safari/Documents/safari/tokens/crowdsale-token/contracts/MetaCoin.sol",
   "ast": {
     "attributes": {
-      "absolutePath": "/home/safari/Documents/safari/tokens/angular4-truffle-starter-dapp/contracts/MetaCoin.sol",
+      "absolutePath": "/home/safari/Documents/safari/tokens/crowdsale-token/contracts/MetaCoin.sol",
       "exportedSymbols": {
         "MetaCoin": [
           112
@@ -123,7 +123,7 @@
       {
         "attributes": {
           "SourceUnit": 17,
-          "absolutePath": "/home/safari/Documents/safari/tokens/angular4-truffle-starter-dapp/contracts/ConvertLib.sol",
+          "absolutePath": "/home/safari/Documents/safari/tokens/crowdsale-token/contracts/ConvertLib.sol",
           "file": "./ConvertLib.sol",
           "scope": 113,
           "symbolAliases": [
@@ -392,7 +392,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 191,
+                                      "referencedDeclaration": 1536,
                                       "type": "tx",
                                       "value": "tx"
                                     },
@@ -619,7 +619,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 181,
+                                      "referencedDeclaration": 1526,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -743,7 +743,7 @@
                                       "overloadedDeclarations": [
                                         null
                                       ],
-                                      "referencedDeclaration": 181,
+                                      "referencedDeclaration": 1526,
                                       "type": "msg",
                                       "value": "msg"
                                     },
@@ -927,7 +927,7 @@
                                   "overloadedDeclarations": [
                                     null
                                   ],
-                                  "referencedDeclaration": 181,
+                                  "referencedDeclaration": 1526,
                                   "type": "msg",
                                   "value": "msg"
                                 },
@@ -1410,294 +1410,7 @@
     "name": "solc",
     "version": "0.4.18+commit.9cf6e910.Emscripten.clang"
   },
-  "networks": {
-    "5777": {
-      "events": {},
-      "links": {
-        "ConvertLib": "0x345ca3e014aaf5dca488057592ee47305d9b3e10"
-      },
-      "address": "0xf25186b5081ff5ce73482ad761db0eb0d25abfbf"
-    },
-    "1497540925209": {
-      "events": {
-        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "_from",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "name": "_to",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "_value",
-              "type": "uint256"
-            }
-          ],
-          "name": "Transfer",
-          "type": "event"
-        }
-      },
-      "links": {
-        "ConvertLib": "0x787fe5e74028176a6552f90d14d04bcc6297fcd9"
-      },
-      "address": "0xc265d4ea8425912b51ac36e23e4c187fb40df6ba",
-      "updated_at": 1497540932068
-    },
-    "1497564377005": {
-      "events": {
-        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "_from",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "name": "_to",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "_value",
-              "type": "uint256"
-            }
-          ],
-          "name": "Transfer",
-          "type": "event"
-        }
-      },
-      "links": {
-        "ConvertLib": "0x9596c6cef3427acf38ad21eb14ca2262ab04b8e0"
-      },
-      "address": "0x3a511605e276791d104d24e8590f9b6dff05a3e7",
-      "updated_at": 1497564416671
-    },
-    "1497573956908": {
-      "events": {
-        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "_from",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "name": "_to",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "_value",
-              "type": "uint256"
-            }
-          ],
-          "name": "Transfer",
-          "type": "event"
-        }
-      },
-      "links": {
-        "ConvertLib": "0x364acbfa10e7c110b40200457092c12bb3826953"
-      },
-      "address": "0xd8107de3f93ee0a8977bd48a05a996e9c61a4ff5",
-      "updated_at": 1497574321175
-    },
-    "1497575573093": {
-      "events": {
-        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "_from",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "name": "_to",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "_value",
-              "type": "uint256"
-            }
-          ],
-          "name": "Transfer",
-          "type": "event"
-        }
-      },
-      "links": {
-        "ConvertLib": "0x0bb483e4d6e6af468b7ab17251fcb7da3544111e"
-      },
-      "address": "0xcbf20107e28ec5566bb26f46cc6aeab758895ae1",
-      "updated_at": 1497575611584
-    },
-    "1497704680000": {
-      "events": {
-        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "_from",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "name": "_to",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "_value",
-              "type": "uint256"
-            }
-          ],
-          "name": "Transfer",
-          "type": "event"
-        }
-      },
-      "links": {
-        "ConvertLib": "0xa2489b03174613759de5c88f66214a3e772fb34a"
-      },
-      "address": "0xde712c2344fd4aab71498b4443bed3640969446d",
-      "updated_at": 1497704704499
-    },
-    "1500839312902": {
-      "events": {
-        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "_from",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "name": "_to",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "_value",
-              "type": "uint256"
-            }
-          ],
-          "name": "Transfer",
-          "type": "event"
-        }
-      },
-      "links": {
-        "ConvertLib": "0x1feda32ceae7bfcfead59e00e3bc65095bb07b26"
-      },
-      "address": "0x8838d55bc9ded4bc72eaa4eca43b1f4d5eaed633",
-      "updated_at": 1500839556226
-    },
-    "1502360145017": {
-      "events": {
-        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "_from",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "name": "_to",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "_value",
-              "type": "uint256"
-            }
-          ],
-          "name": "Transfer",
-          "type": "event"
-        }
-      },
-      "links": {
-        "ConvertLib": "0x1559fe26aa9be3f370126e8386f17ebe2e1d652a"
-      },
-      "address": "0x64d4f50b63e8ff64bebf73c2b7e3fc6a22a2942a",
-      "updated_at": 1502360207520
-    },
-    "1502361423296": {
-      "events": {
-        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "_from",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "name": "_to",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "_value",
-              "type": "uint256"
-            }
-          ],
-          "name": "Transfer",
-          "type": "event"
-        }
-      },
-      "links": {
-        "ConvertLib": "0x1559fe26aa9be3f370126e8386f17ebe2e1d652a"
-      },
-      "address": "0x64d4f50b63e8ff64bebf73c2b7e3fc6a22a2942a",
-      "updated_at": 1502361452538
-    },
-    "1502362873428": {
-      "events": {
-        "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef": {
-          "anonymous": false,
-          "inputs": [
-            {
-              "indexed": true,
-              "name": "_from",
-              "type": "address"
-            },
-            {
-              "indexed": true,
-              "name": "_to",
-              "type": "address"
-            },
-            {
-              "indexed": false,
-              "name": "_value",
-              "type": "uint256"
-            }
-          ],
-          "name": "Transfer",
-          "type": "event"
-        }
-      },
-      "links": {
-        "ConvertLib": "0xf36a85aff1a3e42d8212cca42b4af64027662bbf"
-      },
-      "address": "0xda75dfe75b6e99fbf3561c430581e252c0565c10",
-      "updated_at": 1502883739622
-    }
-  },
+  "networks": {},
   "schemaVersion": "1.0.1",
-  "updatedAt": "2018-01-31T09:05:06.003Z"
+  "updatedAt": "2018-02-02T06:27:21.910Z"
 }
