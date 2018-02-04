@@ -1,8 +1,37 @@
-var ConvertLib = artifacts.require("./ConvertLib.sol");
-var MetaCoin = artifacts.require("./MetaCoin.sol");
+function ether(n) {
+  return new web3.BigNumber(web3.toWei(n, 'ether'));
+}
+
+const SafeMath = artifacts.require('./SafeMath');
+const SampleCrowdsale = artifacts.require('./SampleCrowdsale');
+const SampleCrowdsaleToken = artifacts.require('./SampleCrowdsaleToken');
 
 module.exports = function(deployer) {
-  deployer.deploy(ConvertLib);
-  deployer.link(ConvertLib, MetaCoin);
-  deployer.deploy(MetaCoin);
+  deployer.deploy(SafeMath);
+
+  deployer.link(SafeMath, SampleCrowdsale);
+  deployer.link(SafeMath, SampleCrowdsaleToken);
+
+  deployer
+    .deploy(SampleCrowdsaleToken)
+    .then(() => {
+      const wallet = web3.eth.accounts[1];
+      const startTime = 1520141469;
+      const endTime = 1522819869;
+      const goal = ether(10);
+      const cap = ether(20);
+      const rate = new web3.BigNumber(10);
+      const token = SampleCrowdsaleToken.address;
+
+      deployer.deploy(
+        SampleCrowdsale,
+        startTime,
+        endTime,
+        rate,
+        goal,
+        cap,
+        wallet,
+        token
+      );
+    });
 };
